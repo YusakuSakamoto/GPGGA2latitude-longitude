@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sakamoto/Documents/gps/ArduinoGPGGA/main.cpp
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+iostream
+-
+
