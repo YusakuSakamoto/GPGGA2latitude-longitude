@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sakamoto/Documents/gps/ArduinoGPGGA/main.cpp
+/home/sakamoto/Documents/GPGGA2latitude-longitude/main.cpp
 string.h
 -
 stdlib.h

@@ -1,1 +1,0 @@
-/home/sakamoto/Documents/gps/ArduinoGPGGA/build/CMakeFiles/main.dir

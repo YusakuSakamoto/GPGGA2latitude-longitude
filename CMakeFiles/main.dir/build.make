@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sakamoto/Documents/gps/ArduinoGPGGA
+CMAKE_SOURCE_DIR = /home/sakamoto/Documents/GPGGA2latitude-longitude
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sakamoto/Documents/gps/ArduinoGPGGA/build
+CMAKE_BINARY_DIR = /home/sakamoto/Documents/GPGGA2latitude-longitude
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -50,18 +50,18 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakamoto/Documents/gps/ArduinoGPGGA/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/main.dir/main.cpp.o: main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sakamoto/Documents/GPGGA2latitude-longitude/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/sakamoto/Documents/gps/ArduinoGPGGA/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/sakamoto/Documents/GPGGA2latitude-longitude/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sakamoto/Documents/gps/ArduinoGPGGA/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sakamoto/Documents/GPGGA2latitude-longitude/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sakamoto/Documents/gps/ArduinoGPGGA/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sakamoto/Documents/GPGGA2latitude-longitude/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/main.dir/main.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/sakamoto/Documents/gps/ArduinoGPGGA/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sakamoto/Documents/gps/ArduinoGPGGA /home/sakamoto/Documents/gps/ArduinoGPGGA /home/sakamoto/Documents/gps/ArduinoGPGGA/build /home/sakamoto/Documents/gps/ArduinoGPGGA/build /home/sakamoto/Documents/gps/ArduinoGPGGA/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sakamoto/Documents/GPGGA2latitude-longitude && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sakamoto/Documents/GPGGA2latitude-longitude /home/sakamoto/Documents/GPGGA2latitude-longitude /home/sakamoto/Documents/GPGGA2latitude-longitude /home/sakamoto/Documents/GPGGA2latitude-longitude /home/sakamoto/Documents/GPGGA2latitude-longitude/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
